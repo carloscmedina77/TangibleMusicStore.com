@@ -1,0 +1,3 @@
+SELECT * FROM music_db.musics;
+SELECT * FROM music_db.users;
+SELECT * FROM musics JOIN users ON users.id = musics.user_id
